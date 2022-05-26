@@ -1,6 +1,6 @@
 import unittest
 import time
-
+import pytest
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -42,4 +42,5 @@ class TestAbs(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    # unittest.main()
+    pytest.main()
