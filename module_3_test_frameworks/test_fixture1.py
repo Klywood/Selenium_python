@@ -1,6 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+
+"""
+https://stepik.org/lesson/237257/step/2?unit=209645
+"""
+
 from selenium.webdriver.chrome.service import Service
 
 link = "http://selenium1py.pythonanywhere.com/"
