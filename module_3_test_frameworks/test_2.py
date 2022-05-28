@@ -1,3 +1,6 @@
+
+"""https://stepik.org/lesson/236918/step/6?unit=209305"""
+
 import pytest
 
 @pytest.mark.xfail(strict=True)
