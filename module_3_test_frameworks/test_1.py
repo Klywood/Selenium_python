@@ -1,3 +1,6 @@
+
+"""https://stepik.org/lesson/36285/step/13?unit=162401"""
+import logging
 import unittest
 import time
 import pytest
@@ -6,6 +9,8 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
+#  disable webdriver-manager logs
+logging.getLogger('WDM').setLevel(logging.NOTSET)
 
 def get_result(link):
     with webdriver.Chrome(service=Service(ChromeDriverManager().install())) as browser:
