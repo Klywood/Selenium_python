@@ -9,7 +9,8 @@ To RUN test:
     cd .\module_3_test_frameworks\tasks\
 
 или запустить тест из корня:
-    pytest --language=es .\module_3_test_frameworks\tasks\test_items.py """
+    pytest --language=es .\module_3_test_frameworks\tasks\test_items.py
+"""
 
 import time
 from selenium.webdriver.common.by import By
