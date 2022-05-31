@@ -1,3 +1,4 @@
 .idea
 /venv/
 /module_3_test_frameworks/.pytest_cache/
+/module_3_test_frameworks/lessons/conftest.py
